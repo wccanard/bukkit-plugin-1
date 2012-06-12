@@ -1,0 +1,23 @@
+author: wccanard
+database: false
+description: wccanard's first bukkit plugin. A work in progress.
+generator: http://dinnerbone.com/minecraft/tools/pluginator/
+main: com.github.wccanard.Bukkitplugin1
+name: bukkit-plugin-1
+startup: postworld
+url: https://github.com/wccanard/bukkit-plugin-1
+version: '1.0'
+
+commands:
+  cheese:
+    description: Makes a stone block appear near to you.
+    usage: /cheese
+  flyingcow:
+    description: creates a cow above you or a friend. Or everyone.
+    usage: /flyingcow, or /flyingcow fushide5330 cheese5330, or /flyingcow all
+  goingup:
+    description: makes you jump up 10 blocks
+    usage: /goingup
+  mobcannon:
+    description: fires a mob.
+    usage: /mobcannon

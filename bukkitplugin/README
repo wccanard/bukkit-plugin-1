@@ -1,0 +1,3 @@
+Just type
+mvn package
+to make this plugin; it appears as a jar file in target.
